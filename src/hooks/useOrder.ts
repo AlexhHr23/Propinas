@@ -24,16 +24,10 @@ export const  useOrder = () => {
         }
 
 
-        
-
-
-
     }
-
-
-    console.log(order);
-
+    
     return {
-        addItem
+        addItem,
+        order
     }
 }
